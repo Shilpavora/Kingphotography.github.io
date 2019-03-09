@@ -1,0 +1,77 @@
+.clear{
+	clear: both;
+}
+
+.container{
+	width:100%;
+	height: auto;
+	background: url(../images/background.jpg) left no-repeat;
+	margin-top: -16px;
+
+}
+body{	
+	margin: 0px;
+
+}
+.header{
+	height: 705px;	
+	width: auto;
+	background: rgba(11, 11, 11, 0.85);	
+}
+.logo{
+	float: left;
+    padding: 0px 415px;
+    padding-top: 175px;
+}
+.tag_line p{
+	font-family: cursive;
+	color: #c3c3c3;
+	text-align: -webkit-center;
+}
+.menu{
+	padding-top: 30px;
+	width: 100%;
+	background: black;
+	padding: 35px 190px;
+	background: rgba(0, 0, 0, 0.48);
+	position: fixed;
+
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.menu ul li a{
+	text-decoration: initial;
+	color: #F7C93E;
+	font-family: ostrich;
+	font-size: 25px;
+	padding: 38px 32px;
+}
+.menu ul li a:hover{
+	background-color: #F7C93E;
+	color: black;
+
+}
+.glry_btn a{
+	text-decoration: none;
+	color: #F7C93E;
+	font-family: ostrich;
+	font-size: 35px;
+	border: 2px #F7C93E solid;
+	padding: 15px;
+	/*position: relative;*/
+	margin: 0px 0px 0px 119px;
+}
+.glry_btn {
+	margin-top: 80px;
+}
+.glry_btn a:hover{
+	color:black;
+	background-color: #F7C93E;
+}
+
+

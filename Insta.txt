@@ -1,0 +1,40 @@
+
+    <!-- testimonials
+       ================================================== -->
+    <section id="testimonial" class="s-testimonials target-section" style="background-image: none; background-color: peachpuff">
+       <style type="text/css">
+           .img1
+           {
+               height: 310px;
+               border-radius: 50px;
+           }
+       </style>
+        <div>
+
+            <div class="row testimonials-header">
+                <div class="col-full">
+                    <h1 class="h02" style="color: black">Instagram post</h1>
+                </div>
+            </div>
+
+            <div class="row testimonials">
+                <div class="col-full testimonials__slider">
+                    <?php
+                    $i=1;
+                        $insta_qry= "SELECT * FROM Instagram";
+                        $insta_res= $obj->run_qry($insta_qry);
+                        while($insta_row=mysqli_fetch_array($insta_res)){
+                    ?>
+                    <div class="testimonials__slide">
+                        <p><img src="<?php echo $insta_row['Image']; ?>" class="img1"></p>
+
+                    </div>
+                            <?php }
+                            $i++;
+                            ?>
+                </div> <!-- end testimonials__slider -->
+
+            </div> <!-- end testimonials -->
+
+        </div> <!-- end s-testimonials -->
+    </section>22:52 26-06-2018
